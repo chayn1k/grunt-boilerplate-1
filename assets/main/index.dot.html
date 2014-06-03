@@ -1,0 +1,129 @@
+{
+  "template": 		"master",
+  "title": 			"Websolute",
+  "description": 	"Homepage",
+  "class":			"home",
+  "id": 			0
+}
+
+
+
+			<section id="why-use-boilerplate">
+                <div class="container">
+                    <h2>Why use boilerplate</h2>
+                    <ul class="tools-list">
+                        <li class="boilerplate">
+                            <a href="https://github.com/actarian/grunt-boilerplate" target="_blank"><code>Boilerplate</code></a> scaffolds out a new application,
+                            writing your Grunt configuration and pulling in relevant Grunt tasks and Bower dependencies that you might need
+                            for your build.
+                        </li>
+                        <li class="gruntjs">
+                            <a href="http://gruntjs.com" target="_blank"><code>Grunt</code></a> is used to build, preview and test your project, thanks to help from tasks
+                            curated by the grunt-contrib.
+                        </li>
+                        <li class="bower">
+                            <a href="http://bower.io" target="_blank"><code>Bower</code></a> is used for dependency management, so that you no longer have to manually download
+                            and manage your scripts.
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <code>grunt-modernizr</code> is a Modernizr builder for your project. It will crawl your project for Modernizr test references and save out a minified, uglified, customized version using only the tests you've used in your JavaScript or CSS.
+                        </li>
+                        <li>
+                            <code>bootstrap 3</code>. Automatically downloaded to the latest version. You can freely customize it with the pre-compile less version.
+                        </li>
+                        <li>
+                            <code>html5shiv</code> and <code>respond.js</code> preinstalled.
+                        </li>
+                        <li>
+                            <code>jquery</code> modern (2+) and legacy (1.10) preinstalled.
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <code>grunt-cssmin</code>. All your CSS will be minimized and compressed with <code>cleancss</code>.
+                        </li>
+                        <li>
+                            <code>grunt-less</code>. All your less imports, variables and mixins will be compiled and pre-pended to your main CSS.
+                        </li>
+                        <li>
+                            <code>grunt-uglify</code>. All your JavaScript files will be automatically concatenated and pre-pended to your main.js file and compressed with uglify.
+                        </li>
+                        <li>
+                            <code>grunt-stencil</code>. A Grunt templating plugin to generate static HTML files from given pages, templates and partials written in either pure HTML, <a href="http://olado.github.io/doT/index.html" target="_blank"><code>doT.js</code></a>, or <a href="http://whatismarkdown.com/" target="_blank"><code>markdown</code>. <a href="https://github.com/cambridge-healthcare/grunt-stencil/wiki" target="_blank"><code>Wiki</code></a>
+                        </li>
+                        <li>
+                            <code>grunt-imagemin</code>. Minify images using imagemin. Comes bundled with the following optimizers: <code>gifsicle</code> Compress GIF images, <code>jpegtran</code> Compress JPEG images, <code>optipng</code> Compress PNG images, <code>svgo</code> Compress SVG images modern (2+) and legacy (1.10) preinstalled.
+                        </li>
+                        <li>
+                            <code>grunt-connect</code> and <code>grunt-open</code>. Start a connect web server for test and development. And with grunt-open you'll launch your favourite browser.
+                        </li>
+                        <li>
+                            <code>grunt-watch</code>. All changes made to your files are watched and will launch relative tasks.
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="what-s-included">
+                <div class="container">
+                    <h2>What's included</h2>
+                    <pre>
+grunt-boilerplate/
+├── assets/
+│   ├── main/
+│   ├── temp/
+│   ├── vendor/
+├── dist/
+│   ├── assets/
+│   ├── css/
+│   ├── fonts/
+│   ├── img/
+│   ├── js/
+│   └── index.html
+├── bower.json
+├── gruntfile.js
+├── package.json
+└── README.md
+                    </pre>
+                </div>
+            </section>
+            <section id="installation">
+                <div class="container">
+                    <h2>Installation</h2>
+                    <p>
+                        Install <a href="http://nodejs.org/" target="_blank"><code>Node.js</code></a> and <a href="http://git-scm.com/download" target="_blank"><code>Git</code></a> and run all the following commands from console:
+                    </p>
+                    <ul>
+                        <li>Install Grunt globally</li>
+                        <code>npm install -g grunt-cli</code>
+                        <li>Install Bower globally</li>
+                        <code>npm install -g bower</code>
+                        <li>Fix of Bower issue on windows 7</li>
+                        <code>git config --global url."https://".insteadOf git://</code>
+                    </ul>
+                    <p>
+                        For adding Git to Windows 7 Path:
+                    </p>
+                    <ul>
+                        <li>Right-Click on My Computer</li>
+                        <li>Click Advanced System Settings link from the left side column</li>
+                        <li>Click Environment Variables in the bottom of the window</li>
+                        <li>Then under System Variables look for the path variable and click edit</li>
+                        <li>Add the pwd to git's bin and cmd at the end of the string like this:<br>
+                        <code>;C:\Program Files (x86)\Git\bin;C:\Program Files (x86)\Git\cmd</code></li>
+                    </ul>
+                </div>
+            </section>
+            <section id="usage">
+                <div class="container">
+                    <h2>Usage</h2>
+                    <p>
+                        After installation unzip <a href="https://github.com/actarian/grunt-boilerplate" target="_blank"><code>Boilerplate</code></a> git or clone git, from console run:<br>
+                        <code>grunt prepare</code> and <code>grunt development</code>
+                    </p>
+                    <p>
+                        Run <code>grunt help</code> for more commands.
+                    </p>
+                </div>
+            </section>

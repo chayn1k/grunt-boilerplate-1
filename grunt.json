@@ -1,0 +1,22 @@
+{
+    "name":        "grunt-boilerplate",
+    "version":     "0.0.1",
+    "homepage":    "http://extranet.wslabs.it/grunt-boilerplate",
+    "git":         "http://github.com/actarian/grunt-boilerplate",
+    "authors": [
+        "Luca Zampetti <lzampetti@gmail.com>"
+    ],
+    "license": "MIT",
+    "folder": {
+        "source"    : "source",
+        "dev"       : "dev",
+        "dist"      : "dist",
+        "vendor"    : "vendor",
+        "temp"      : "temp"
+    },
+    "usedist"       : true,
+    "dependencies": {
+        "skrollr": "",
+        "ua": "git://github.com/actarian/ua.git"
+    }
+}
