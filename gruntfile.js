@@ -94,7 +94,7 @@ module.exports = function(grunt) {
 			},
 			ua: {
 				cwd: 'assets',
-				src: [ 	'vendor/ws/ua.js' ],
+				src: [ 	'vendor/ua/dist/ua.js' ],
 				dest: 'dist/js',
 				expand: true, flatten: true, filter: 'isFile',
 			},
