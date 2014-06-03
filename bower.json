@@ -18,6 +18,8 @@
     "bootstrap": "",
     "jquery-legacy": "jquery#1.10",
     "jquery-modern": "jquery#2.1.1",
+    "html5shiv": "",
+    "respond": "",
     "modernizr": "",
     "skrollr": "",
     "ua": "git://github.com/actarian/ua.git"
